@@ -1,0 +1,25 @@
+{
+  "name": "openmusic-api-queue-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-consumer": "node src/consumer.js",
+    "lint": "npx eslint ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "nodemailer": "^6.7.7",
+    "pg": "^8.7.3"
+  }
+}
